@@ -1,7 +1,5 @@
-# 📄 README.md — Customizar el Repositorio del Login en Laravel  
-
-## 📌 Universidad Tecnológica de Panamá  
-**Facultad de Ingeniería Eléctrica — Ingeniería Web**  
+Universidad Tecnológica de Panamá  
+**Facultad de Sistemas Computacionales — Ingeniería en Software**  
 **Instructor:** Ing. Irina Fong  
 **Módulo I: Introducción a la Ingeniería Web**  
 **Tema:** Patrón MVC – Laboratorio #2**  
@@ -10,7 +8,7 @@
 
 ---
 
-## 🎯 Objetivo del Laboratorio  
+## Objetivo del Laboratorio  
 - Comprender la importancia de la **documentación en proyectos de software**.  
 - Consolidar el aprendizaje de la arquitectura **MVC en Laravel**.  
 - Documentar la configuración e implementación del **login en Laravel**.  
@@ -19,7 +17,7 @@
 
 ---
 
-## ⚙️ Requisitos Previos  
+## Requisitos Previos  
 
 - **PHP**: versión 8.2 (mínimo 8.0).  
 - **Composer**: última versión estable.  
@@ -39,7 +37,7 @@ npm run dev
 
 ---
 
-## 🏗️ Estructura del Proyecto (MVC)  
+## Estructura del Proyecto (MVC)  
 
 - **Controladores (`app/Http/Controllers`)** → Contienen la lógica de negocio.  
 - **Modelos (`app/Models`)** → Representan tablas en la base de datos.  
@@ -55,7 +53,7 @@ php artisan session:table
 
 ---
 
-## 🗄️ Configuración de Base de Datos  
+## Configuración de Base de Datos  
 
 En el archivo `.env`:  
 ```env
@@ -71,7 +69,7 @@ DB_PASSWORD=
 
 ---
 
-## 💻 Flujo de Comandos Utilizados  
+## Flujo de Comandos Utilizados  
 
 **Instalación del login con Laravel UI:**  
 ```bash
@@ -89,13 +87,7 @@ php artisan db:seed
 
 ---
 
-## 📷 Resultado Visible  
-
-![Resultado del login]("C:\Users\botac\Documents\GitHub\Login-laravel\Captura.png")    
-
----
-
-## 🚧 Dificultades Encontradas y Soluciones  
+## Dificultades Encontradas y Soluciones  
 
 - **Problema 1: Configuración de `.env` para MySQL**  
   - Error: la conexión inicial estaba en `sqlite`.  
@@ -117,20 +109,9 @@ php artisan db:seed
   - **Solución:** Actualizar Node.js, borrar `node_modules` y `package-lock.json`, reinstalar con `npm install`, y compilar con `npm run dev`.  
 
 ---
+ 
 
-## 🔗 Referencias  
-
-1. [Documentación oficial de Laravel](https://laravel.com/docs)  
-2. [Foros de Laravel – Errores de migración](https://laracasts.com/discuss)  
-3. [StackOverflow – Error Specified key was too long](https://stackoverflow.com/questions/42017364)  
-
----
-
-## ✍️ Footer  
-
-Este laboratorio ha sido desarrollado por el estudiante de la **Universidad Tecnológica de Panamá**:  
-
-**Nombre:** Juan Botacio 
+**Nombre:** Juan Botacio    
 **Cedula:** 8-1011-560 
 **Correo:** juan.botacio@utp.ac.pa  
 **Curso:** Ingeniería Web – II Semestre 2025  
